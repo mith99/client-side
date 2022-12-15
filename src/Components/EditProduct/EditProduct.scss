@@ -1,0 +1,144 @@
+@import '../colors.scss';
+
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-sub-container{
+    width: 70%;
+}
+
+.title-container{
+    width: max-content;
+    display: flex;
+}
+
+.main-ttle{
+    font-family: Satoshi, Arial, sans-serif;
+    font-size: 36px;
+    color: $blackish;
+    font-weight:500;
+    letter-spacing: 2px;
+}
+
+.sub-ttle{
+    font-family: Satoshi, Arial, sans-serif;
+    font-size: 24px;
+    color: $blue;
+    font-weight:700;
+    letter-spacing: 2px;
+}
+
+
+.arw-icon{
+
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+.form-container{
+    margin-top: 30px;
+}
+
+.form-title{
+    font-family: Satoshi, Arial, sans-serif;
+    color: $blackish;
+    font-weight: 700;
+    font-size: 19px;
+    margin-right: 30px;
+    width: 50px;
+
+}
+
+.input-field{
+
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    width:50%
+}
+
+.input-bgrd{
+    width: 40%;
+    background-color: $light-grey;
+    padding: 5px;
+    border-radius:10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+    margin-right: 40px;
+}
+
+.center-v{
+    display: flex;
+    align-items: center;
+}
+
+.input-position{
+    margin-top: 40px;
+}
+
+.side-by{
+    display: contents;
+    align-items: center;
+    
+}
+
+.input-margins{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.textarea{
+    background: $light-grey;
+    border: none;
+    outline: none;
+    width:95%;
+    padding: 30px;
+    border-radius:10px;
+
+}
+
+// .txt-area-back{
+//     width: 40%;
+//     background-color: $light-grey;
+//     padding: 5px;
+//     border-radius:10px;
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     height: 45px;
+//     margin-right: 40px;
+// }
+
+.FileUpload {
+    opacity: 0;
+    position: relative;
+    z-index: 1;
+}
+
+
+.upload-txt{
+    font-family: Satoshi, Arial, sans-serif;
+    font-size: 19px;
+    text-decoration: underline;
+    font-weight: 500;
+    color: $blue;
+}
+
+
+.add-btn{
+    color: $white;
+    font-family: Satoshi, Arial, sans-serif;
+    font-size: 19px;
+    height: 50px;
+    width: 230px;
+    background-color: $blue;
+}
+

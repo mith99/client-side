@@ -1,0 +1,55 @@
+
+@import '../colors.scss';
+
+.title-cont{
+width: 80%;
+margin-left: 10%;
+margin-right: 10%;
+margin-top: 50px;
+}
+
+
+.col-titles{
+    font-family: Satoshi, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    color: $blue;
+
+}
+
+
+.dspl-flex{
+    display: flex;
+}
+
+.prod-row{
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sku{
+    color: $dark-grey;
+    font-family: Satoshi, Arial, sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+
+}
+
+.prod-name{
+    color: $blackish;
+    font-family: Satoshi, Arial, sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.line{
+    border-bottom: 1px solid $dark-grey;
+    width: 100%; 
+}
+
+.icons{
+    margin-left: 10px;
+}

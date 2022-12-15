@@ -1,0 +1,73 @@
+@import '../colors.scss';
+
+
+.result-title{
+    color: $dark-grey;
+    font-size: 24px;
+    font-family: Satoshi, Arial, sans-serif;
+    font-weight: 500;
+    margin-left: 60px;
+    margin-top: 50px;
+    letter-spacing: 2px;
+}
+
+.results-container{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.results-container-in{
+    width: 70%;
+
+}
+
+.search-sku{
+    font-family: Satoshi, Arial, sans-serif;
+    color: $blue;
+    font-weight: 500;
+    font-size: 17px;
+    margin-top: 20px;
+
+}
+
+.search-prod-name{
+    font-family: Satoshi, Arial, sans-serif;
+    color: $blackish;
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.search-prod-desc{
+    font-family: Satoshi, Arial, sans-serif;
+    color: $dark-grey;
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.single-result{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.single-result-1{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+
+

@@ -1,0 +1,46 @@
+@import '../colors.scss';
+
+
+.nav-margins {
+    margin-top: 30px;
+    padding: 20px;
+    width: 95%;
+}
+
+.avatar {
+    margin-left: 20px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: $blue;
+}
+
+.admin-txt {
+    font-family: Satoshi, Arial, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.nav-container{
+    display: flex;
+}
+
+.arrow{
+    height: 18px;
+    rotate: 90deg;
+    margin-left: 5px;
+}
+
+.vertical-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.navbar-position{
+    display: flex;
+    justify-content: flex-end;
+}
